@@ -1,4 +1,4 @@
-**Malaga in the age of AI: Community Contest Rules**
+**Malaga in the Age of AI: Community Contest Rules**
 
 **Organizer:** Malaga-AI, a non-profit community dedicated to sharing the power and promise of Artificial Intelligence (AI).
 
@@ -29,7 +29,7 @@
 
 **Prizes:**
 
-1. **First Prize:** A free course by Fabiana, "From Creator to Innovator - Stand out from your competitors and save 90% of your workflow time with images created with Artificial Intelligence" (valued at 397€)
+1. **First Prize:** A free course by Fabiana, "From Creator to Innovator - Stand out from your competitors and save 90% of your workflow time with images created with Artificial Intelligence" (valued at 497€)
 2. **Runner-ups:** second and third prizes will consist of Malaga-AI swag (if residing in Spain) or discount online vouchers (if residing outside of Spain).
 
 **Intellectual Property:**
