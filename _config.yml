@@ -21,8 +21,8 @@
 title: Malaga in the Age of AI
 email: hello@malaga-ai.community
 description: >- # this means to ignore newlines until "baseurl:"
-  Malaga-AI is a community dedicated to sharing the power and promise of Artificial Intelligence (AI),
-  so that all people may benefit from this transformative technology.
+  This is your chance to unleash your creativity and showcase your artistic skills
+  by generating stunning images of Málaga using text-to-image AI models.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://contest.malaga-ai.community" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Malaga-AI
