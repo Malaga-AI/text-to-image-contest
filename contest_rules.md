@@ -15,9 +15,9 @@
 
 **Submission Guidelines:**
 
-1. Participants must use the image generation services at Freepik to create their image. Free credits will be provided to participants, simply by using the discount code "TBD". Any model available at the service (Mystic, Flux, etc) is allowed.
+1. Participants must use the image generation services at [Freepik](https://www.freepik.com?utm_source=malagaaicontest) to create their image. Free credits will be provided to participants, simply by using the discount code **MALAGAAICONTEST**. Any model available at the service (Mystic, Flux, etc) is allowed. Credits will expire by Dec 20th.
 2. Images cannot be manually retouched. All entries must strictly adhere to the text-to-image methodology.
-3. Submissions will be made through a web form, which will require:
+3. Submissions will be made through a [web form](./submit.html), which will require:
   * Images (up to 3)
   * Prompts used to generate the images
   * Email
@@ -25,11 +25,11 @@
 
 **Judging Criteria:**
 
-1. The jury, composed of Fabiana Aguilar, visual storyteller and GenAI expert, and Bence Csernak, AI builder and AI adoption expert, will evaluate submissions based on creativity, originality, and representation of Málaga.
+1. The jury, composed of [Fabiana Aguilar](https://www.linkedin.com/in/fabi-aguilar), visual storyteller and GenAI expert, and [Bence Csernak](https://www.linkedin.com/in/bencecsernak/), AI builder and AI adoption expert, will evaluate submissions based on creativity, originality, and representation of Málaga.
 
 **Prizes:**
 
-1. **First Prize:** A free course by Fabiana, "From Creator to Innovator - Stand out from your competitors and save 90% of your workflow time with images created with Artificial Intelligence" (valued at 497€)
+1. **First Prize:** A free course by Fabiana, "From Creator to Innovator - Stand out from your competitors and save 90% of your workflow time with images created with Artificial Intelligence" (valued at 497€).
 2. **Runner-ups:** second and third prizes will consist of Malaga-AI swag (if residing in Spain) or discount online vouchers (if residing outside of Spain).
 
 **Intellectual Property:**
@@ -45,6 +45,8 @@
 
 **Contact:**
 
-For questions or concerns, please contact Malaga-AI at hello@malaga-ai.community.
+For questions or concerns, please contact Malaga-AI at [hello@malaga-ai.community](mailto:hello@malaga-ai.community).
 
 **By participating, participants agree to the rules and terms outlined above.**
+
+<a href="../" class="back-button">Go Back</a>

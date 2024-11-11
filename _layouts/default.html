@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- Setup theme-color -->
+    {% include head-custom-theme-colors.html %}
+    <link rel="shortcut icon" href="/favicon.svg">
+    <meta property="og:image" content="./assets/images/Malaga-AI_logo.png" />
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <ul>
+                <li class="name"><a href="{{ site.url }}">{{ site.title }}</a></li>
+                <li class="links">
+                    <a href="{{ site.x_url }}">
+                        <img src="./assets/images/X_logo.png" alt="Follow us on X/Twitter" height="24">
+                    </a>
+                </li>
+                <li class="links">
+                    <a href="{{ site.linkedin_url }}">
+                        <img src="./assets/images/Linkedin_logo.png" alt="Follow us on LinkedIn" height="24">
+                    </a>
+                </li>
+                <li class="links">
+                    <a href="{{ site.github_url }}">
+                        <img src="./assets/images/Github_logo.png" alt="Follow us on GitHub" height="24">
+                    </a>
+                </li>
+                <li class="links">
+                    <a href="{{ site.eventbrite_url }}">
+                        <img src="./assets/images/Eventbrite_logo.png" alt="Follow us on Eventbrite" height="24">
+                    </a>
+                </li>
+                <li class="links">
+                    <a href="mailto:{{ site.email }}">
+                        <img src="./assets/images/Email_logo.png" alt="Reach us via email" height="24">
+                    </a>
+                </li>
+                <li class="links">
+                    <a href="{{ site.discord_url }}">
+                        <img src="./assets/images/Discord_logo.png" alt="Join us on Discord" height="24">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div><!-- end header -->
+    eventbrite
+    <div class="wrapper">
+        <section>
+            {% if page.show_cover %}
+            <div id="title">
+                <img src="./assets/images/text-to-image_contest_cover.png" width="50%"
+                    alt="Malaga in the Age of AI"></img>
+            </div>
+            {% endif %}
+
+            {{ content }}
+
+            {% if page.show_judges %}
+            {% include judges.html %}
+            {% endif %}
+
+            <BR><BR>
+            <div id="title">
+                <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{
+                        site.github.owner_name }}</a></span>
+                <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a
+                        href="https://twitter.com/mattgraham">mattgraham</a></span>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>

@@ -11,6 +11,10 @@
 
 **Legal Basis:** The processing of participant emails is based on the participant's consent, as they explicitly agree to provide their email address when submitting their entry to the contest.
 
+**Tool Use:** As a participant in this contest, you will receive a coupon to use on Freepik’s website, enabling access to their tools. To redeem and use the coupon, the creation of a free account on Freepik will be required, which involves processing basic personal data.
+
+Your data will be processed to provide access to the tools. For full details on Freepik’s data practices and your rights under the GDPR, please refer to [Freepik’s Privacy Policy](https://www.freepik.com/legal/privacy).
+
 **Data Retention:** We retain participant emails for future contests and events. Participants can exercise their rights as described below at any time.
 
 **Data Sharing:** We will not share participant emails with any third parties, except with the following:
@@ -27,7 +31,8 @@
 * Restrict processing of their personal data
 * Object to processing of their personal data
 
-**Contact:** For questions or concerns about this privacy policy, please contact Malaga-AI at hello@malaga-ai.community.
+**Contact:** For questions or concerns about this privacy policy, please contact Malaga-AI at [hello@malaga-ai.community](mailto:hello@malaga-ai.community).
 
 **By providing your email address, you agree to this privacy policy.**
 
+<a href="../" class="back-button">Go Back</a>
