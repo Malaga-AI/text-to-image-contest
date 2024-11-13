@@ -29,7 +29,7 @@
 
 **Prizes:**
 
-1. **First Prize:** A free course by Fabiana, "From Creator to Innovator - Stand out from your competitors and save 90% of your workflow time with images created with Artificial Intelligence" (valued at 497€).
+1. **First Prize:** A free course by Fabiana, "From Creator to Innovator - Stand out from your competitors and save 90% of your workflow time with images created with Artificial Intelligence" (valued at 497€). The course is currently available in Spanish with the English version coming soon.
 2. **Runner-ups:** second and third prizes will consist of Malaga-AI swag (if residing in Spain) or discount online vouchers (if residing outside of Spain).
 
 **Intellectual Property:**

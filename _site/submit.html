@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Malaga in the Age of AI | Malaga-AI is a community dedicated to sharing the power and promise of Artificial Intelligence (AI), so that all people may benefit from this transformative technology.</title>
+<title>Malaga in the Age of AI | This is your chance to unleash your creativity and showcase your artistic skills by generating stunning images of Málaga using text-to-image AI models.</title>
 <meta name="generator" content="Jekyll v3.9.5" />
 <meta property="og:title" content="Malaga in the Age of AI" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Malaga-AI is a community dedicated to sharing the power and promise of Artificial Intelligence (AI), so that all people may benefit from this transformative technology." />
-<meta property="og:description" content="Malaga-AI is a community dedicated to sharing the power and promise of Artificial Intelligence (AI), so that all people may benefit from this transformative technology." />
+<meta name="description" content="This is your chance to unleash your creativity and showcase your artistic skills by generating stunning images of Málaga using text-to-image AI models." />
+<meta property="og:description" content="This is your chance to unleash your creativity and showcase your artistic skills by generating stunning images of Málaga using text-to-image AI models." />
 <link rel="canonical" href="http://localhost:4000/submit.html" />
 <meta property="og:url" content="http://localhost:4000/submit.html" />
 <meta property="og:site_name" content="Malaga in the Age of AI" />
@@ -19,10 +19,10 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Malaga in the Age of AI" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Malaga-AI is a community dedicated to sharing the power and promise of Artificial Intelligence (AI), so that all people may benefit from this transformative technology.","headline":"Malaga in the Age of AI","url":"http://localhost:4000/submit.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"This is your chance to unleash your creativity and showcase your artistic skills by generating stunning images of Málaga using text-to-image AI models.","headline":"Malaga in the Age of AI","url":"http://localhost:4000/submit.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=58e09ac43653485f67343118319baebdad5a96f0">
+    <link rel="stylesheet" href="/assets/css/style.css?v=6f8cb72ad2a27f95ebdb8ff5329f261caf662094">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="/assets/js/respond.js"></script>
@@ -95,10 +95,126 @@
 <script src="https://cdn.jsdelivr.net/npm/@tripetto/studio"></script>
 
 <script>
-    TripettoStudio.form({
-        runner: TripettoClassic,
-        token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoib0kzNHo5eUVjVGZ0S0tjRXowNUJLdTlqSTdPMENHeHdmbHJCeWdtTThBND0iLCJkZWZpbml0aW9uIjoiUkZsK3BFUWJjRXJ6M3lOYVg2cyt4S0FGV3BYb1lPMVYyOGk5QVAvSmVFQT0iLCJ0eXBlIjoiY29sbGVjdCJ9.RhvMpqaD2Lr3JMrrtAnRITCMuDsU9AR9Ik1MIjSR-Ig",
-        element: "tripetto-1wg3b90"
+    const TRIGGER_TEXT = "It's a wrap!";
+    //const TRIGGER_TEXT = "Submit your text-to-image creations of Málaga";
+
+    function replaceFormWithThankYou() {
+        // Find the form container
+        const formContainer = document.getElementById('tripetto-1wg3b90');
+
+        // Verify container exists
+        if (!formContainer) {
+            console.error('Form container not found');
+            return;
+        }
+
+        // Clear the current form container
+        formContainer.innerHTML = '';
+
+        // Create a thank you message
+        const thankYouDiv = document.createElement('div');
+        thankYouDiv.innerHTML = `
+            <div>
+                <h2>Thank You!</h2>
+                <p>Your submission for the Malaga in the Age of AI contest has been successfully received.</p>
+                <p>Winners will be announced on Dec 22nd. Good luck!</p>
+            </div>
+        `;
+
+        // Append the thank you message
+        formContainer.appendChild(thankYouDiv);
+
+        // Optional: Log the substitution
+        console.log('Form replaced with thank you message');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Debugging function
+        function debugLog(message) {
+            console.log(`[Tripetto Debug] ${message}`);
+        }
+
+        // Check if required Tripetto libraries are loaded
+        debugLog(`TripettoStudio exists: ${!!window.TripettoStudio}`);
+        debugLog(`TripettoClassic exists: ${!!window.TripettoClassic}`);
+
+        TripettoStudio.form({
+            runner: TripettoClassic,
+            token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoib0kzNHo5eUVjVGZ0S0tjRXowNUJLdTlqSTdPMENHeHdmbHJCeWdtTThBND0iLCJkZWZpbml0aW9uIjoiUkZsK3BFUWJjRXJ6M3lOYVg2cyt4S0FGV3BYb1lPMVYyOGk5QVAvSmVFQT0iLCJ0eXBlIjoiY29sbGVjdCJ9.RhvMpqaD2Lr3JMrrtAnRITCMuDsU9AR9Ik1MIjSR-Ig",
+            element: "tripetto-1wg3b90",
+            // Add explicit onLoad and onError callbacks
+            onLoad: function() {
+                debugLog('Form successfully loaded');
+            },
+            onError: function(error) {
+                debugLog(`Form initialization error: ${JSON.stringify(error)}`);
+            }
+        });
+
+        const observer = new MutationObserver((mutations) => {
+            mutations.forEach((mutation) => {
+                // Log details of added nodes
+                if (mutation.type === 'childList') {
+                    mutation.addedNodes.forEach((node) => {
+                        // Check if an iframe is added
+                        if (node.nodeName === 'IFRAME') {
+                            console.log('Iframe detected:', {
+                                src: node.src,
+                                id: node.id,
+                                className: node.className
+                            });
+
+                            // Try to access iframe content
+                            try {
+                                const iframeDoc = node.contentDocument || node.contentWindow.document;
+
+                                // Create a new observer for the iframe content
+                                const iframeObserver = new MutationObserver((iframeMutations) => {
+                                    console.log('Iframe content mutations:', iframeMutations);
+
+                                    // Search for H2 elements within the iframe
+                                    const iframeH2Elements = iframeDoc.getElementsByTagName('h2');
+                                    console.log('H2 elements in iframe:', {
+                                        count: iframeH2Elements.length,
+                                        elements: Array.from(iframeH2Elements).map((el, index) => ({
+                                            index: index + 1,
+                                            textContent: el.textContent.trim(),
+                                            matches: el.textContent.trim().includes(TRIGGER_TEXT)
+                                        }))
+                                    });
+
+                                    // Check for wrap text in iframe
+                                    const wrapElements = Array.from(iframeH2Elements)
+                                        .filter(el => el.textContent.trim().includes(TRIGGER_TEXT));
+
+                                    if (wrapElements.length > 0) {
+                                        console.log('Wrap found in iframe!');
+                                        iframeObserver.disconnect();
+                                        replaceFormWithThankYou();
+                                    }
+                                });
+
+                                // Observe the iframe document
+                                iframeObserver.observe(iframeDoc.body, {
+                                    childList: true,
+                                    subtree: true,
+                                    characterData: true
+                                });
+
+                            } catch (error) {
+                                console.error('Error accessing iframe content:', error);
+                            }
+                        }
+                    });
+                }
+            });
+        });
+
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true,
+            characterData: false
+        });
     });
 </script>
 
