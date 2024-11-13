@@ -15,7 +15,7 @@
 
 **Submission Guidelines:**
 
-1. Participants must use the image generation services at [Freepik](https://www.freepik.com?utm_source=malagaaicontest) to create their image. Free credits will be provided to participants, simply by using the discount code **MALAGAAICONTEST**. Any model available at the service (Mystic, Flux, etc) is allowed. Credits will expire by Dec 20th.
+1. Participants must use the image generation services at [Freepik](https://www.freepik.com?utm_source=malagaaicontest) to create their image. Free credits will be provided to participants, simply by using the discount code **MALAGAAICONTEST** (see [here](https://support.freepik.com/s/article/AI-Tools-activation-code?language=en_US) for instructions on how to apply). Any model available at the service (Mystic, Flux, etc) is allowed. Credits will expire by Dec 20th.
 2. Images cannot be manually retouched. All entries must strictly adhere to the text-to-image methodology.
 3. Submissions will be made through a [web form](./submit.html), which will require:
   * Images (up to 3)
