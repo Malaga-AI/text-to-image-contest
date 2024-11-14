@@ -20,7 +20,7 @@ Runner-ups will get Malaga-AI swag or online vouchers.
 
 # How to take part
 
-1. Create a free account at our sponsor [Freepik](https://www.freepik.com?utm_source=malagaaicontest).
+1. Create a free account at our sponsor [Freepik](https://www.freepik.com/pikaso/explore?utm_source=malagaaicontest).
 2. Add the coupon code: **MALAGAAICONTEST** (as described [here](https://support.freepik.com/s/article/AI-Tools-activation-code?language=en_US))
 3. Create images from text using the models available and iterate to come up with your best creations. No post-processing allowed!
 4. [Submit](./submit.html) your best images (up to 3) by Dec 20th. Don't forget to include the prompts used!
