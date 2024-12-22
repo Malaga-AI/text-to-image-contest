@@ -19,9 +19,10 @@
 2. Free credits are available for participants, simply by using the discount code **MALAGAAICONTEST** (see [here](https://support.freepik.com/s/article/AI-Tools-activation-code?language=en_US) for instructions on how to apply).
 3. Make sure to access through the link provided above and you will be directed to the AI Suite of tools for a seamless experience.
 4. Any model available at the Freepik service (Mystic, Flux, etc) is allowed.
-5. Credits will expire by Dec 20th.
-6. Images cannot be manually retouched. All entries must strictly adhere to the text-to-image methodology.
-7. Submissions will be made through a [web form](./submit.html), which will require:
+5. Images may be submitted in any aspect ratio from portrait to landscape orientation.
+6. Credits will expire by Dec 20th.
+7. Images cannot be manually retouched. All entries must strictly adhere to the text-to-image methodology.
+8. Submissions will be made through a [web form](./submit.html), which will require:
   * Images (up to 3)
   * Prompts used to generate the images
   * Email
